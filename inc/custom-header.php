@@ -76,9 +76,9 @@ function renard_header_style() {
 		if ( $header_image ) :
 	?>
 	.site-branding {
-		background-image: url('<?php echo esc_url( $header_image ); ?>');
+		background-image:url('<?php echo esc_url( $header_image ); ?>');
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: center;
 		background-size: cover;
 	}
 	<?php endif; ?>
